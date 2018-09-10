@@ -46,11 +46,11 @@
 
         <?php
         $customerlists = array(
-            "1" => array("name" => "Thư Dung", "birthday" => "1995-01-01", "address" => "Hà Nội", "picture" => "picture/thu_dung.jpg"),
-            "2" => array("name" => "Ngọc Trinh", "birthday" => "1989-09-27", "address" => "Trà Vinh", "picture" => "picture/ngoc-trinh-1.jpg"),
-            "3" => array("name" => "Bà Tưng", "birthday" => "1993-09-06", "address" => "Hà Nội", "picture" => "picture/batung.jpg"),
-            "4" => array("name" => "Cr7", "birthday" => "1985-02-05", "address" => "Portugal", "picture" => "picture/ronaldo.jpg"),
-            "5" => array("name" => "Messi", "birthday" => "1987-06-24", "address" => "Argentina", "picture" => "picture/messi.jpg")
+            "1" => array("name" => "Nguyễn Thư Dung", "birthday" => "1995-01-01", "address" => "Hà Nội", "picture" => "picture/thu_dung.jpg"),
+            "2" => array("name" => "Thư Ngọc Trinh", "birthday" => "1989-09-27", "address" => "Trà Vinh", "picture" => "picture/ngoc-trinh-1.jpg"),
+            "3" => array("name" => "Bà Tưng Cr7", "birthday" => "1993-09-06", "address" => "Hà Nội", "picture" => "picture/batung.jpg"),
+            "4" => array("name" => "Cr7 Nguyễn", "birthday" => "1985-02-05", "address" => "Portugal", "picture" => "picture/ronaldo.jpg"),
+            "5" => array("name" => "Nguyễn Messi", "birthday" => "1987-06-24", "address" => "Argentina", "picture" => "picture/messi.jpg")
         );
 
         foreach ($customerlists as $key => $values) {
