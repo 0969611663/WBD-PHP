@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,27 +24,17 @@
         .thumbnail img {
             width: 100%;
         }
-
-        #input1 {
-            margin-left: 645px;
-        }
     </style>
 </head>
 <body>
-
 <table border="0">
     <caption><h2>Danh sách khách hàng</h2></caption>
-    <form method="post" action="myPhp.php">
-        <input type="text" id="input1" name="search" placeholder="Nhập tên cần tìm">
-        <input type="submit" id="input2" placeholder="search">
-    </form>
     <tr>
         <th>STT</th>
         <th>Tên</th>
         <th>Ngày sinh</th>
         <th>Địa chỉ</th>
         <th>Ảnh</th>
-
         <?php
         $customerlists = array(
             "1" => array("name" => "Thư Dung", "birthday" => "1995-01-01", "address" => "Hà Nội", "picture" => "picture/thu_dung.jpg"),
@@ -53,14 +44,25 @@
             "5" => array("name" => "Messi", "birthday" => "1987-06-24", "address" => "Argentina", "picture" => "picture/messi.jpg")
         );
 
-        foreach ($customerlists as $key => $values) {
-            echo "<tr>";
-            echo "<td>" . $key . "</td>";
-            echo "<td>" . $values['name'] . "</td>";
-            echo "<td>" . $values['birthday'] . "</td>";
-            echo "<td>" . $values['address'] . "</td>";
-            echo "<td><div class='thumbnail'><image src = '" . $values['picture'] . "'/></div></td>";
-            echo "</tr>";
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $searchname = $_POST["search"];
+            $flag = 0;
+            foreach ($customerlists as $key => $customer) {
+                if ($customer["name"] == $searchname) {
+                    echo  "<tr>";
+                    echo "<td>" . $key . "</td>";
+                    echo "<td>" . $customer['name'] . "</td>";
+                    echo "<td>" . $customer['birthday'] . "</td>";
+                    echo "<td>" . $customer['address'] . "</td>";
+                    echo "<td><div class='thumbnail'><image src = '" . $customer['picture'] . "'/></div></td>";
+                    echo  "</tr>";
+                    $flag = 1;
+
+                }
+            }
+            if ($flag == 0) {
+                echo "Không tìm thấy khách hàng";
+            }
         }
 
         ?>
@@ -69,4 +71,3 @@
 </table>
 </body>
 </html>
-
