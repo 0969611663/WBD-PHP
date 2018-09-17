@@ -1,66 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee98d2fe-5f5d-4ce2-aedc-a77c11ba9ae6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/module2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/myPhp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/myPhp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tổng quan ứng dụng Web PHP" beforeDir="false" afterPath="$PROJECT_DIR$/Tổng quan ứng dụng Web PHP" afterDir="false" />
+    <list default="true" id="ee98d2fe-5f5d-4ce2-aedc-a77c11ba9ae6" name="Default" comment="xoa file">
+      <change afterPath="$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/src/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/src/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/src/product_adapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tổng quan ứng dụng Web PHP" beforeDir="false" />
+    </list>
+    <list id="08ff7b14-e1a2-4247-a2ba-5186044a8bf3" name="ignore" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
     </option>
-    <expand />
-    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-923024107">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="md" value="1" />
+          <entry key="php" value="18" />
+          <entry key="testcommit" value="1" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PHP" value="18" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="15" />
+          <entry key="txt" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="15" />
+          <entry key="PLAIN_TEXT" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BaiTap" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/index.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myPhp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/myPhp.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="50" column="66" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="66" />
+            <state relative-caret-position="1620">
+              <caret line="108" column="14" lean-forward="true" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/test.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/src/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="450">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="e#7#88#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/src/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,17 +136,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server_time/[Thực hành] Chức năng đăng nhập/myPhp.php" />
-        <option value="$PROJECT_DIR$/server_time/[Thực hành] Chức năng đăng nhập/index.php" />
-        <option value="$PROJECT_DIR$/server_time/test.php" />
-        <option value="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Từ điển đơn giản/index.php" />
-        <option value="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Từ điển đơn giản/myPHP.php" />
-        <option value="$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Bài tập] Ứng dụng Product Discount Calculator/index.php" />
-        <option value="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Future Value Calculator/index.php" />
-        <option value="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Future Value Calculator/myPHP.php" />
-        <option value="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/index.php" />
-        <option value="$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/myPhp.php" />
-        <option value="$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/test.php" />
+        <option value="$PROJECT_DIR$/[Thực hành] Ứng dụng Product Viewer/template.php" />
+        <option value="$PROJECT_DIR$/[Thực hành] Ứng dụng Product Viewer/public/style.css" />
+        <option value="$PROJECT_DIR$/[Thực hành] Ứng dụng Product Viewer/src/database.php" />
+        <option value="$PROJECT_DIR$/[Thực hành] Ứng dụng Product Viewer/src/functions.php" />
+        <option value="$PROJECT_DIR$/[Thực hành] Ứng dụng Product Viewer/index.php" />
+        <option value="$PROJECT_DIR$/[Thực hành] Ứng dụng Product Viewer/src/product_adapter.php" />
       </list>
     </option>
   </component>
@@ -88,83 +151,71 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="420" />
-    <option name="y" value="40" />
-    <option name="width" value="1750" />
-    <option name="height" value="1105" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="407" />
+    <option name="y" value="214" />
+    <option name="width" value="1434" />
+    <option name="height" value="789" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="module2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module2" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="module2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module2" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
               <item name="Các cấu trúc lập trình căn bản của PHP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="module2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module2" type="462c0819:PsiDirectoryNode" />
-              <item name="Các cấu trúc lập trình căn bản của PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="[Bài tập] Hiển thị danh sách khách hàng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="module2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module2" type="462c0819:PsiDirectoryNode" />
-              <item name="Các cấu trúc lập trình căn bản của PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="[Thực hành] Ứng dụng Future Value Calculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="module2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module2" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
               <item name="Các cấu trúc lập trình căn bản của PHP" type="462c0819:PsiDirectoryNode" />
               <item name="[Thực hành] Ứng dụng Từ điển đơn giản" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="module2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module2" type="462c0819:PsiDirectoryNode" />
-              <item name="Tổng quan ứng dụng Web PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
+              <item name="Kiem_thu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="module2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module2" type="462c0819:PsiDirectoryNode" />
-              <item name="Tổng quan ứng dụng Web PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="[Bài tập] Ứng dụng Product Discount Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\module2\Các cấu trúc lập trình căn bản của PHP\[Bài tập] Hiển thị danh sách khách hàng" />
-      <recent name="C:\xampp\htdocs\module2\Tổng quan ứng dụng Web PHP\[Bài tập] Ứng dụng Product Discount Calculator" />
-      <recent name="C:\xampp\htdocs\module2\Các cấu trúc lập trình căn bản của PHP\[Thực hành] Ứng dụng Future Value Calculator" />
+      <recent name="$PROJECT_DIR$/Thao tác với dữ liệu" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -185,6 +236,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ee98d2fe-5f5d-4ce2-aedc-a77c11ba9ae6" name="Default" comment="" />
+      <changelist id="08ff7b14-e1a2-4247-a2ba-5186044a8bf3" name="ignore" comment="" />
       <created>1536307353383</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -195,34 +247,72 @@
       <workItem from="1536541891401" duration="10921000" />
       <workItem from="1536561319741" duration="5010000" />
       <workItem from="1536566676004" duration="3652000" />
+      <workItem from="1536834453326" duration="293000" />
+      <workItem from="1536834796862" duration="1262000" />
+      <workItem from="1536852816746" duration="1274000" />
+      <workItem from="1537114372018" duration="2147000" />
+      <workItem from="1537165454110" duration="855000" />
+      <workItem from="1537167942708" duration="1462000" />
     </task>
+    <task id="LOCAL-00001" summary="No message">
+      <created>1536835484124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536835484124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="No message">
+      <created>1536835766386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536835766386</updated>
+    </task>
+    <task id="LOCAL-00003" summary="xoa file">
+      <created>1536835855764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536835855764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36361000" />
+    <option name="totallyTimeSpent" value="7104000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="407" y="214" width="1434" height="789" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32905984" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79006773" visible="true" weight="0.379683" />
+      <window_info id="Structure" order="1" sideWeight="0.20993228" side_tool="true" visible="true" weight="0.379683" />
+      <window_info id="Favorites" order="2" sideWeight="0.20993228" side_tool="true" weight="0.379683" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.5960666" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49927953" visible="true" weight="0.32776934" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3323217" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50072044" side_tool="true" weight="0.32829046" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32928678" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,114 +321,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="No message" />
+    <MESSAGE value="xoa file" />
+    <option name="LAST_COMMIT_MESSAGE" value="xoa file" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/myPhp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="50" column="66" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Future Value Calculator/myPHP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/myPhp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="41" column="119" selection-start-line="41" selection-start-column="115" selection-end-line="41" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/picture/batung.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Thực hành] Chức năng đăng nhập/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Thực hành] Chức năng đăng nhập/myPhp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Thực hành] Chức năng đăng nhập/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Thực hành] Chức năng đăng nhập/myPhp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/nhập tuổi/thu_vien.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/nhập tuổi/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Bài tập] Ứng dụng Product Discount Calculator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Thực hành] Chức năng đăng nhập/index.php" />
+    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Thực hành] Chức năng đăng nhập/myPhp.php" />
+    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/nhập tuổi/thu_vien.php" />
+    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/nhập tuổi/index.php" />
     <entry file="file://$PROJECT_DIR$/picture/batung.jpg" />
     <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/picture/ngoc-trinh-1.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -349,34 +341,8 @@
     <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/picture/batung.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Từ điển đơn giản/myPHP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Bài tập] Ứng dụng Product Discount Calculator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Từ điển đơn giản/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Bài tập] Ứng dụng Product Discount Calculator/display_discount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Bài tập] Ứng dụng Product Discount Calculator/index.php" />
+    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/[Bài tập] Ứng dụng Product Discount Calculator/display_discount.php" />
     <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Future Value Calculator/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -391,24 +357,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/test.php" />
     <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
+        <state relative-caret-position="855">
           <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Bài tập] Hiển thị danh sách khách hàng/myPhp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="750">
           <caret line="50" column="66" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tổng quan ứng dụng Web PHP/test.php">
+    <entry file="file://$PROJECT_DIR$/../Kiem_thu/fizz_buzz_prepared/FizzBuzz.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="87">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/fizz_buzz_prepared/FizzBuzzTest.php" />
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/fizz_buzz_prepared/README.md" />
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/fizz_buzz_prepared/phpunit.xml" />
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/fizz_buzz_prepared/FizzBuzz.php" />
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/fizz_buzz_prepared/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/test/testcommit" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/mo_hinh_TDD/LivedTime.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/mo_hinh_TDD/LivedTimeCalculatorTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/mo_hinh_TDD/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kiem_thu/[Thực hành] Dò lỗi ứng dụng PHP/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/public/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Từ điển đơn giản/myPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Các cấu trúc lập trình căn bản của PHP/[Thực hành] Ứng dụng Từ điển đơn giản/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/src/product_adapter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="14" lean-forward="true" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/src/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#7#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thaotácvớidữliệu/ProductManager/src/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
