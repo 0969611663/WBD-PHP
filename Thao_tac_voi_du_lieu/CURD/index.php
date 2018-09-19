@@ -1,3 +1,21 @@
+<?php
+require "product_adapter.php";
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+// Xử lý việc POST
+
+    if (isset($_POST['search'])) {
+// Tìm kiếm
+        $searchString = $_POST['search'];
+        $products = searchProduct($searchString);
+    } else {
+        // Mặc định thì lấy tất cả
+        $products = getProduct();
+    }
+}
+?>
+
+
 <html>
 <head>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -37,34 +55,35 @@
             </thead>
 
             <tbody id="list-itens">
-            <?php foreach($products as $product) : ?>
+            <?php foreach ($products as $product) : ?>
                 <tr>
 
                     <td style="width:140px; text-align: center">
                         <form method="POST" name="action">
-                            <div class="btn btn-sm btn-default"><i class="icon-trash glyphicon glyphicon-eye-open text-primary"></i></div>
-                            <div class="btn btn-sm btn-default" ><i class="icon-trash glyphicon glyphicon-edit text-primary"></i></div>
+                            <div class="btn btn-sm btn-default"><i
+                                        class="icon-trash glyphicon glyphicon-eye-open text-primary"></i></div>
+                            <div class="btn btn-sm btn-default"><i
+                                        class="icon-trash glyphicon glyphicon-edit text-primary"></i></div>
 
-                            <input type="hidden" name="delete" value="<?php echo $product['productCode'] ;?>">
-                            <input class="btn btn-sm btn-default" type="submit" value="delete">
+                            <input type="hidden" name="delete" value="<?php echo $product['productCode']; ?>">
+                            <input class="btn btn-sm btn-default" type="submit" value="Delete">
                         </form>
                     </td>
-                    <td><?php echo $product['productCode']?></td>
-                    <td><?php echo $product['productName']?></td>
-                    <td><?php echo $product['productLine']?></td>
-                    <td><?php echo $product['productScale']?></td>
-                    <td><?php echo $product['productVendor']?></td>
-                    <td><?php echo $product['productDescription']?></td>
-                    <td><?php echo $product['quantityInStock']?></td>
-                    <td><?php echo $product['buyPrice']?></td>
-                    <td><?php echo $product['MSRP']?></td>
+                    <td><?php echo $product['productCode'] ?></td>
+                    <td><?php echo $product['productName'] ?></td>
+                    <td><?php echo $product['productLine'] ?></td>
+                    <td><?php echo $product['productScale'] ?></td>
+                    <td><?php echo $product['productVendor'] ?></td>
+                    <td><?php echo $product['productDescription'] ?></td>
+                    <td><?php echo $product['quantityInStock'] ?></td>
+                    <td><?php echo $product['buyPrice'] ?></td>
+                    <td><?php echo $product['MSRP'] ?></td>
                 </tr>
             <?php endforeach; ?>
 
             </tbody>
         </table>
     </div>
-
 
 
     <div class="row">
@@ -93,7 +112,7 @@
                         <input type="text" name="name" id="frm-customer-name" class="form-control">
 
                         <label>Email Address</label>
-                        <input type="email" name="email" id="frm-customer-email"  class="form-control">
+                        <input type="email" name="email" id="frm-customer-email" class="form-control">
 
                         <label>Description</label>
                         <textarea class="form-control" name="description" id="frm-customer-description"></textarea>
