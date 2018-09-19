@@ -13,5 +13,5 @@ $category_id = $_GET['id'];
 
 
 deleteCategory($category_id);
-header('Location: http://localhost/BaiTap/Cau_truy_van/Ung_dung_QL_thu_vien/');
+header('Location: ../index.php');
 exit();

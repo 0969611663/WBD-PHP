@@ -7,7 +7,7 @@
  */
 
 require "database/database.php";
-global $conn;
+
 $database = new Database();
 $conn = $database->connect('root', '123456@Abc', 'library_database');
 
