@@ -1,10 +1,8 @@
 <?php
-require __DIR__ . '/class/Category.php';
+require __DIR__ . '/class/Book.php';
 
-$data = new Category();
-$categories = $data->showCategory();
-
-echo var_dump($categories);
+$data = new Book();
+$books = $data->showBook();
 
 ?>
 
@@ -54,14 +52,15 @@ echo var_dump($categories);
             </tr>
             </thead>
             <tbody>
-            <?php foreach ($categories as $category) : ?>
+            <?php foreach ($books as $book) : ?>
 
                 <tr>
-                    <td><?php echo $category['id'] ?></td>
-                    <td><?php echo $category['category_name'] ?></td>
+                    <td><?php echo $book['id'] ?></td>
+                    <td><?php echo $book['book_name'] ?></td>
+                    <td><?php echo $book['author'] ?></td>
                     <td>
-                        <a href="CURD/updata.php?id=<?php echo $category['id'] ?>">Update</a>
-                        <a href="CURD/delete.php?id=<?php echo $category['id'] ?>">Delete</a>
+                        <a href="../category/function_category/updata.php?id=<?php echo $book['id'] ?>">Update</a>
+                        <a href="../category/function_category/delete.php?id=<?php echo $book['id'] ?>">Delete</a>
                     </td>
                 </tr>
 
@@ -69,7 +68,7 @@ echo var_dump($categories);
             </tbody>
         </table>
         <form method="post">
-            <a href="CURD/addNew.php">Add New Category</a>
+            <a href="../category/function_category/addnew.php">Add New Category</a>
         </form>
         <hr>
     </div>
@@ -93,4 +92,3 @@ echo var_dump($categories);
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-</html>

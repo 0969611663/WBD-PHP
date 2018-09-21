@@ -5,11 +5,12 @@
  * Date: 20/09/2018
  * Time: 22:53
  */
-require __DIR__ . "/CURD.php";
+require __DIR__ . "/../../class_Dad/CURD.php";
 
 
 class Category extends CURD
 {
+
     public function __construct ()
     {
         parent::__construct();
@@ -17,7 +18,13 @@ class Category extends CURD
 
     public function showCategory ()
     {
-        parent::show();
+        $caregories = parent::show("category");
+        return $caregories;
+    }
+
+    public function getCategoryById($id) {
+        $category = parent::getById("category", $id);
+        return $category;
     }
 
     public function insert ($name)

@@ -12,6 +12,7 @@ abstract class CURD
 {
     protected $conn;
     protected $sql;
+    protected $table;
 
     protected function __construct ()
     {
@@ -19,9 +20,9 @@ abstract class CURD
         $this->conn = $database->connect('root', '123456@Abc', 'library_database');
     }
 
-    protected function show ()
+    protected function show ($table)
     {
-        $sql = "SELECT * FROM category ORDER BY id";
+        $sql = "SELECT * FROM $table ORDER BY id";
         $result = $this->conn->query($sql);
         $categories = $result->fetchAll(PDO::FETCH_ASSOC);
         return $categories;
@@ -29,9 +30,9 @@ abstract class CURD
 
     abstract protected function insert ($name);
 
-    protected function getById ($id)
+    protected function getById ($table, $id)
     {
-        $sql = "SELECT * FROM category WHERE id = '$id'";
+        $sql = "SELECT * FROM $table WHERE id = '$id'";
         $result = $this->conn->query($sql);
         $data = $result->fetchAll(PDO::FETCH_ASSOC);
         return $data[0];

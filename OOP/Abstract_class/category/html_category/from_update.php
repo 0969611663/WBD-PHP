@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -32,13 +33,13 @@
     <hr>
     <div class="col-md-12">
         <!--        list-->
-        <h2 style="color: chocolate">Add New Category</h2>
+        <h2 style="color: chocolate">Edit Category</h2>
 
         <form method="post" class="form-horizontal">
             <div class="form-group">
                 <label class="control-label col-sm-2">Name Category:</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" name="category_name">
+                    <input type="text" class="form-control" name="names" value="<?php echo $category['category_name'] ?>">
                 </div>
             </div>
 
@@ -70,3 +71,4 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+</html>
