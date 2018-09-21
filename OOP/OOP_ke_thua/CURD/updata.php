@@ -1,10 +1,36 @@
 <?php
-require "database/Category.php";
+/**
+ * Created by PhpStorm.
+ * User: tu
+ * Date: 18/09/2018
+ * Time: 17:43
+ */
+require __DIR__."/Category.php";
 
-$data = new Category();
-$categories = $data->getCategories();
 
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+    //lay ra the loai can sua
+    $data = new Category();
+    $category = $data->getCategoryById($id);
+    //Kiem tra the loai co ton tai k?
+    if (!$category) {
+        echo "Thể loại không tồn tại";
+        die();
+    }
+
+    //update
+    if (isset($_POST['category_name'])) {
+        $categoryName = $_POST['category_name'];
+
+        $data->updateCategory($id, $categoryName);
+        header('Location: ../index.php');
+        exit();
+    }
+
+}
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -40,34 +66,21 @@ $categories = $data->getCategories();
     <hr>
     <div class="col-md-12">
         <!--        list-->
-        <h2 style="color: chocolate">Categories List</h2>
+        <h2 style="color: chocolate">Add New Category</h2>
 
+        <form method="post" class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2">Name Category:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="category_name" value="<?php echo $category['category_name']?>">
+                </div>
+            </div>
 
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th>ID</th>
-                <th>Category Name</th>
-                <th></th>
-            </tr>
-            </thead>
-            <tbody>
-            <?php foreach ($categories as $category) : ?>
-
-                <tr>
-                    <td><?php echo $category['id']?></td>
-                    <td><?php echo $category['category_name']?></td>
-                    <td>
-                        <a href="category/form-update.php?id=<?php echo $category['id']?>">Update</a>
-                        <a href="category/delete.php?id=<?php echo $category['id']?>">Delete</a>
-                    </td>
-                </tr>
-
-            <?php endforeach;?>
-            </tbody>
-        </table>
-        <form method="post">
-            <a href="category/form-addnew.php">Add New Category</a>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Add</button>
+                </div>
+            </div>
         </form>
         <hr>
     </div>

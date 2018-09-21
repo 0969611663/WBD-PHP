@@ -3,35 +3,23 @@
  * Created by PhpStorm.
  * User: tu
  * Date: 18/09/2018
- * Time: 21:51
+ * Time: 17:43
  */
-
-require "../product_adapter.php";
-
+require __DIR__."/Category.php";
 
 
-if (isset($_GET['id'])) {
-    $id = $_GET['id'];
-    //lay ra the loai can sua
-    $category = getById($id);
-    //kiem tra the loai co ton tai hay k
-    if (!$category) {
-        echo "Thể loại không tồn tại";
-        die();
-    }
+if ($_POST['category_name']) {
+    $name = $_POST['category_name'];
 
-    //update category
-    if (isset($_POST['category_name'])) {
-        $name = $_POST['category_name'];
-        upCategory($id, $name);
-        header('Location: ../index.php');
-        exit();
-    }
-} else {
-    echo "chưa chọn danh mục";
-    die();
+    $data = new Category();
+    $data->insertCategory($name);
+
+    header('Location: ../index.php');
+    exit();
 }
 ?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -66,13 +54,13 @@ if (isset($_GET['id'])) {
     <hr>
     <div class="col-md-12">
         <!--        list-->
-        <h2 style="color: chocolate">Edit Category</h2>
+        <h2 style="color: chocolate">Add New Category</h2>
 
         <form method="post" class="form-horizontal">
             <div class="form-group">
                 <label class="control-label col-sm-2">Name Category:</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" name="category_name" value="<?php echo $category[0]['category_name']?>">
+                    <input type="text" class="form-control" name="category_name">
                 </div>
             </div>
 

@@ -14,15 +14,20 @@ class Category
 
     public function __construct()
     {
-        $database = new Database();
-        $this->conn = $database->connect('root', '123456@Abc', 'library_database');
+        $database = new Database('root', '123456@Abc', 'library_database');
+        $this->conn = $database->conn;
     }
 
     public function getCategories()
     {
         $sql = "SELECT * FROM category ORDER BY id";
         $result = $this->conn->query($sql);
-        $categories = $result->fetchAll(PDO::FETCH_ASSOC);
-        return $categories;
-    }
+
+        $resultArray = [];
+        while($row = $result->fetch_assoc()) {
+            $resultArray[] = $row;
+        }
+        return $resultArray;
+   }
+
 }

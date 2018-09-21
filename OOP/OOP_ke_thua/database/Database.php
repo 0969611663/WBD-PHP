@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: tu
- * Date: 17/09/2018
- * Time: 17:41
+ * Date: 18/09/2018
+ * Time: 13:50
  */
 
 class Database {
@@ -12,9 +12,10 @@ class Database {
     private $passWord = null;
 
     public function connect($user, $passWord, $dbName) {
+
         $this->userName = $user;
         $this->passWord = $passWord;
-        $this->url = "mysql:host=localhost,dbname=$dbName";
+        $this->url = "mysql:host=localhost;dbname=$dbName";
 
         try {
             $conn = new PDO($this->url, $this->userName, $this->passWord);
