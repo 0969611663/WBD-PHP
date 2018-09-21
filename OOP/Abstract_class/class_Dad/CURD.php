@@ -28,15 +28,15 @@ abstract class CURD
         return $categories;
     }
 
-    abstract protected function insert ($name);
-
-    protected function getById ($table, $id)
+        protected function getById ($table, $id)
     {
         $sql = "SELECT * FROM $table WHERE id = '$id'";
         $result = $this->conn->query($sql);
         $data = $result->fetchAll(PDO::FETCH_ASSOC);
         return $data[0];
     }
+
+    abstract protected function insert ($name);
 
     abstract protected function update ($id, $name);
 

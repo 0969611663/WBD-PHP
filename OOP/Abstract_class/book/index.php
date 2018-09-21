@@ -2,7 +2,7 @@
 require __DIR__ . '/class/Book.php';
 
 $data = new Book();
-$books = $data->showBook();
+$books = $data->show();
 
 ?>
 
@@ -47,6 +47,8 @@ $books = $data->showBook();
             <thead>
             <tr>
                 <th>ID</th>
+                <th>Book Name</th>
+                <th>Author</th>
                 <th>Category Name</th>
                 <th></th>
             </tr>
@@ -58,6 +60,7 @@ $books = $data->showBook();
                     <td><?php echo $book['id'] ?></td>
                     <td><?php echo $book['book_name'] ?></td>
                     <td><?php echo $book['author'] ?></td>
+                    <td><?php echo $book['category_name']?></td>
                     <td>
                         <a href="../category/function_category/updata.php?id=<?php echo $book['id'] ?>">Update</a>
                         <a href="../category/function_category/delete.php?id=<?php echo $book['id'] ?>">Delete</a>
