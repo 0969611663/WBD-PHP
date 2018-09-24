@@ -2,7 +2,7 @@
 require __DIR__ . '/class/Book.php';
 
 $data = new Book();
-$books = $data->show();
+$books = $data->showBook();
 
 ?>
 
@@ -50,7 +50,7 @@ $books = $data->show();
                 <th>Book Name</th>
                 <th>Author</th>
                 <th>Category Name</th>
-                <th></th>
+                <th>Category ID</th>
             </tr>
             </thead>
             <tbody>
@@ -62,8 +62,8 @@ $books = $data->show();
                     <td><?php echo $book['author'] ?></td>
                     <td><?php echo $book['category_name']?></td>
                     <td>
-                        <a href="../category/function_category/updata.php?id=<?php echo $book['id'] ?>">Update</a>
-                        <a href="../category/function_category/delete.php?id=<?php echo $book['id'] ?>">Delete</a>
+                        <a href="../book/html_book/from_updata.php?id=<?php echo $book['id'] ?>">Update</a>
+                        <a href="../book/function_book/delete.php?id=<?php echo $book['id'] ?>">Delete</a>
                     </td>
                 </tr>
 
@@ -71,7 +71,7 @@ $books = $data->show();
             </tbody>
         </table>
         <form method="post">
-            <a href="../category/function_category/addnew.php">Add New Category</a>
+            <a href="html_book/from_add.php">Add New Category</a>
         </form>
         <hr>
     </div>

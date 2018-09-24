@@ -12,9 +12,12 @@ require __DIR__ . '/../html_category/from_add.php';
 
 if (isset($_POST['names'])) {
     $nameCategory = $_POST['names'];
+    $data = [
+        'name' => $nameCategory
+    ];
 
     $catagory = new Category();
-    $catagory->insert($nameCategory);
+    $catagory->insert($data);
 
     header('location: ../index.php');
     exit();

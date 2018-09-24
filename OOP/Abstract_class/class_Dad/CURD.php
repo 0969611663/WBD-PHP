@@ -10,17 +10,17 @@ require __DIR__ . '/../database/Database.php';
 
 abstract class CURD
 {
-    protected $conn;
-    protected $sql;
-    protected $table;
+    public $conn;
+    public $sql;
+    public $table;
 
-    protected function __construct ()
+    public function __construct ()
     {
         $database = new Database();
         $this->conn = $database->connect('root', '123456@Abc', 'library_database');
     }
 
-    protected function show ($table)
+    public function show ($table)
     {
         $sql = "SELECT * FROM $table ORDER BY id";
         $result = $this->conn->query($sql);
@@ -28,7 +28,7 @@ abstract class CURD
         return $categories;
     }
 
-        protected function getById ($table, $id)
+    public function getById ($table, $id)
     {
         $sql = "SELECT * FROM $table WHERE id = '$id'";
         $result = $this->conn->query($sql);
@@ -36,9 +36,14 @@ abstract class CURD
         return $data[0];
     }
 
-    abstract protected function insert ($name);
+    public function delete ($table ,$id)
+    {
+        $sql = "DELETE FROM $table WHERE `id` = '$id'";
+        $this->conn->exec($sql);
+    }
 
-    abstract protected function update ($id, $name);
+    abstract protected function insert (array $data);
 
-    abstract protected function delete ($id);
+    abstract protected function update (array $data);
+
 }

@@ -21,10 +21,15 @@ if (isset($_GET['id'])) {
         die();
     }
 
+
     if (isset($_POST['names'])) {
         $categoryName = $_POST['names'];
+        $data = [
+            'id' => $categoryId,
+            'nameCategory' => $categoryName
+        ];
 
-        $update->update($categoryId, $categoryName);
+        $update->update($data);
         header('Location: ../index.php');
         exit();
     }

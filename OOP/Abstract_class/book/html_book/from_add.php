@@ -1,12 +1,12 @@
 <?php
-require __DIR__ . '/class/Category.php';
+require_once __DIR__ . "/../../category/class/Category.php";
 
-$data = new Category();
-$categories = $data->showCategory();
-
+$category = new Category();
+$categories = $category->showCategory();
 
 
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -42,34 +42,36 @@ $categories = $data->showCategory();
     <hr>
     <div class="col-md-12">
         <!--        list-->
-        <h2 style="color: chocolate">Categories List</h2>
+        <h2 style="color: chocolate">Add New Book</h2>
 
+        <form method="post" class="form-horizontal" action="../function_book/addnew.php">
+            <div class="form-group">
+                <label class="control-label col-sm-2">Name Book:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="book_name">
+                </div>
+                <label class="control-label col-sm-2">Name Author:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="author_name">
+                </div>
+                <!--                <label class="control-label col-sm-2">Id Category:</label>-->
+                <div class="col-md-12">
+                    <label for="exampleSelect1">Category</label>
+                    <select class="form-control" name="category_id">
+                        <?php foreach ($categories as $value) : ?>
+                            <option value="<?php echo $value['id'] ?>">
+                                <?php echo $value['category_name'] ?>
+                            </option>
+                        <?php endforeach ?>
+                    </select>
+                </div>
+            </div>
 
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th>ID</th>
-                <th>Category Name</th>
-                <th></th>
-            </tr>
-            </thead>
-            <tbody>
-            <?php foreach ($categories as $category) : ?>
-
-                <tr>
-                    <td><?php echo $category['id'] ?></td>
-                    <td><?php echo $category['category_name'] ?></td>
-                    <td>
-                        <a href="function_category/updata.php?id=<?php echo $category['id'] ?>">Update</a>
-                        <a href="function_category/delete.php?id=<?php echo $category['id'] ?>">Delete</a>
-                    </td>
-                </tr>
-
-            <?php endforeach; ?>
-            </tbody>
-        </table>
-        <form method="post">
-            <a href="function_category/addnew.php">Add New Category</a>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Add</button>
+                </div>
+            </div>
         </form>
         <hr>
     </div>
