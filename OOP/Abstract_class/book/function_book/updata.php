@@ -11,11 +11,11 @@ require_once __DIR__."/../class/Book.php";
 if (isset($_GET['id'])) {
     $idBook = $_GET['id'];
 
-    $book = new Book();
-    $books = $book->getBookById($idBook);
+    $books = new Book();
+    $book = $books->getBookById($idBook);
 
 
-    if (!$books) {
+    if (!$book) {
         echo "Thể loại không tồn tại";
         die();
     }
@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ];
 
 
-        $book->update($data);
+        $books->update($data);
 
         header('Location: ../index.php');
         exit();

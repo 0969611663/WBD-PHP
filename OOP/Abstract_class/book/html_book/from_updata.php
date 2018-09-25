@@ -1,12 +1,10 @@
 <?php
 require_once __DIR__ . "/../../category/class/Category.php";
-require_once __DIR__."/../class/Book.php";
-require_once __DIR__."/../function_book/updata.php";
+require_once __DIR__ . "/../class/Book.php";
+require_once __DIR__ . "/../function_book/updata.php";
 
 $category = new Category();
 $categories = $category->showCategory();
-
-
 
 
 ?>
@@ -47,23 +45,28 @@ $categories = $category->showCategory();
         <!--        list-->
         <h2 style="color: chocolate">Edit Category</h2>
 
-        <form method="post" class="form-horizontal" action="../function_book/updata.php?id=<?php echo $books['id'] ?>">
+        <form method="post" class="form-horizontal" action="../function_book/updata.php?id=<?php echo $book['id'] ?>">
             <div class="form-group">
 
                 <label class="control-label col-sm-2">Name Book:</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" name="book_name" value="<?php echo $books['book_name']?>">
+                    <input type="text" class="form-control" name="book_name" value="<?php echo $book['book_name'] ?>">
                 </div>
                 <label class="control-label col-sm-2">Name Author:</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" name="author_name" value="<?php echo $books['author']?>">
+                    <input type="text" class="form-control" name="author_name" value="<?php echo $book['author'] ?>">
                 </div>
                 <!--                <label class="control-label col-sm-2">Id Category:</label>-->
                 <div class="col-md-12">
                     <label for="exampleSelect1">Category</label>
                     <select class="form-control" name="category_id">
                         <?php foreach ($categories as $value) : ?>
-                            <option value="<?php echo $value['id'] ?>">
+                            <option
+                                <?php
+                                if ($value['id'] == $book['id_category']) { ?>
+                                    selected
+                                <?php } ?>
+                                    value="<?php echo $value['id'] ?>">
                                 <?php echo $value['category_name'] ?>
                             </option>
                         <?php endforeach ?>
