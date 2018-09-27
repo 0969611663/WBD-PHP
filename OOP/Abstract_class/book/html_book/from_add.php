@@ -56,8 +56,9 @@ $categories = $category->showCategory();
                 </div>
                 <!--                <label class="control-label col-sm-2">Id Category:</label>-->
                 <div class="col-md-12">
-                    <label for="exampleSelect1">Category</label>
+
                     <select class="form-control" name="category_id">
+                        <label for="exampleSelect1">Category</label>
                         <?php foreach ($categories as $value) : ?>
                             <option value="<?php echo $value['id'] ?>">
                                 <?php echo $value['category_name'] ?>
